@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #777;
+}
+
+header {
+  width: 1024px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 26px;
+  color: #fed136;
+}
+
+.menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 40px;
+}
+
+.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu li a:hover {
+  color: #fed136;
+}
+
+.services .section-title {
+  text-align: center;
+}
+
+.services .section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #222;
+}
+
+.services .section-title p {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.contact-us {
+  background: #222;
+}
+
+.contact-us .section-title {
+  text-align: center;
+}
+
+.contact-us .section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-us .section-title p {
+  font-style: italic;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
